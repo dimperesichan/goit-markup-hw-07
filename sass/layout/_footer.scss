@@ -1,0 +1,219 @@
+.footer{
+    background-color: #2F303A;
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  
+  .footer-container{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;  
+  }
+    
+  .footer-logo{
+    margin-bottom: 20px;
+  }
+    
+  .footer-logo-text{
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: #2196F3;
+  }
+    
+  .footer-logo-text-itom{
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;;
+  }
+    
+  .maps-link{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    padding: 0px;
+
+    &:hover,
+    &:focus{
+    color: var(--accent-color);
+    }
+  }
+    
+  .footer-navigation{
+    display: flex;
+  }
+    
+  .footer-mail{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+    padding: 0px;
+
+    &:hover,
+    &:focus{
+    color: var(--accent-color);
+    }
+  }
+    
+  .footer-tel{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+    cursor: pointer;
+
+    &:hover,
+    &:focus{
+    color: var(--accent-color);
+    }
+  }
+  
+  .footer-social-list{
+    padding-top: 12px;
+    margin-left: 70px;
+  }
+    
+  .footer-title{
+    font-family: Roboto;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin: 0px;
+    margin-bottom: 20px;
+  }
+    
+  .footer-social-list-link{
+    width:44px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.1);
+    transition: color 250ms linear,
+    background-color 250ms linear;
+
+    &:hover,
+    &:focus{
+    background-color: var(--accent-color);
+    }
+  }
+  
+ .footer-social-list-icon{
+    width: 20px;
+    height: 20px;
+    fill: #FFFFFF;
+
+    .footer-social-list-link:hover &,
+    .footer-social-list-link:focus & {
+    fill: #FFFFFF ;
+   }
+  }
+
+  .footer-social-list-atom{
+    margin-right: 10px;
+  }
+    
+  .footer-menu-link-list{
+    margin-bottom: 9px;
+  }
+    
+  .email-input{
+    margin-left: 93px;
+    width: 570px;
+    height: 86px;
+    padding-top: 12px;  
+  }
+  
+  .email-input-text{
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+  }
+  
+  .email-form-field{
+    display: flex;
+  }
+  
+  
+  .email-form-input-wrapper{
+    margin-right: 12px;
+  }
+  
+  .email-form-btn{
+    background: #2196F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    width: 200px;
+    height: 50px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+    padding-left: 29px;
+    cursor: pointer;
+  }
+    
+  .email-form-input{
+    position: static;
+    padding-left: 16px;
+    width: 358px;
+    height: 50px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-sizing: border-box;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    background-color: #2F303A;
+    font-family: Roboto;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+
+    &:focus{
+    border-color: var(--accent-color);
+    outline: none;
+    }
+  }
+
+  
+  .email-form-input-icon{
+    position: absolute;
+    transform: translate(165px, 12px);
+    width: 24px;
+    height: 24px;
+  }
+  
